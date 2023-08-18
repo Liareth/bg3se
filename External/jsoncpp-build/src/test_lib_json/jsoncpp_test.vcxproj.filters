@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\test_lib_json\jsontest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\test_lib_json\fuzz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\test_lib_json\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\test_lib_json\jsontest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\test_lib_json\fuzz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\test_lib_json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C02C4E4-FE91-3766-BF04-101534E5F771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC18E10D-CF80-319F-99E7-0D81E9A15E5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

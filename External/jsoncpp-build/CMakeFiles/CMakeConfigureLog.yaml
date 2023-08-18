@@ -1,0 +1,488 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:67 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:67 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 18/08/2023 19:17:26.
+      
+      Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.49
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:67 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-7rhl1t"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-7rhl1t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-7rhl1t
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c496f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:27.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rhl1t\\cmTC_c496f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c496f.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rhl1t\\Debug\\".
+          Creating directory "cmTC_c496f.dir\\Debug\\cmTC_c496f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c496f.dir\\Debug\\cmTC_c496f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c496f.dir\\Debug\\\\" /Fd"cmTC_c496f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c496f.dir\\Debug\\\\" /Fd"cmTC_c496f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rhl1t\\Debug\\cmTC_c496f.exe" /INCREMENTAL /ILK:"cmTC_c496f.dir\\Debug\\cmTC_c496f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-7rhl1t/Debug/cmTC_c496f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-7rhl1t/Debug/cmTC_c496f.lib" /MACHINE:X64  /machine:x64 cmTC_c496f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c496f.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rhl1t\\Debug\\cmTC_c496f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c496f.dir\\Debug\\cmTC_c496f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c496f.dir\\Debug\\cmTC_c496f.tlog\\cmTC_c496f.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rhl1t\\cmTC_c496f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "src/lib_json/CMakeLists.txt:11 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include clocale"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-dirzgo"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-dirzgo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_CLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-dirzgo
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fca72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:28.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\cmTC_fca72.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fca72.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\Debug\\".
+          Creating directory "cmTC_fca72.dir\\Debug\\cmTC_fca72.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fca72.dir\\Debug\\cmTC_fca72.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fca72.dir\\Debug\\\\" /Fd"cmTC_fca72.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckIncludeFile.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fca72.dir\\Debug\\\\" /Fd"cmTC_fca72.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\Debug\\cmTC_fca72.exe" /INCREMENTAL /ILK:"cmTC_fca72.dir\\Debug\\cmTC_fca72.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-dirzgo/Debug/cmTC_fca72.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-dirzgo/Debug/cmTC_fca72.lib" /MACHINE:X64  /machine:x64 cmTC_fca72.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_fca72.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\Debug\\cmTC_fca72.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fca72.dir\\Debug\\cmTC_fca72.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fca72.dir\\Debug\\cmTC_fca72.tlog\\cmTC_fca72.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dirzgo\\cmTC_fca72.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/lib_json/CMakeLists.txt:12 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for localeconv"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-e8vwlx"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-e8vwlx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-e8vwlx
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_26938.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:28.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\cmTC_26938.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_26938.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\Debug\\".
+          Creating directory "cmTC_26938.dir\\Debug\\cmTC_26938.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_26938.dir\\Debug\\cmTC_26938.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26938.dir\\Debug\\\\" /Fd"cmTC_26938.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\CheckSymbolExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckSymbolExists.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26938.dir\\Debug\\\\" /Fd"cmTC_26938.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\CheckSymbolExists.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\Debug\\cmTC_26938.exe" /INCREMENTAL /ILK:"cmTC_26938.dir\\Debug\\cmTC_26938.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-e8vwlx/Debug/cmTC_26938.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-e8vwlx/Debug/cmTC_26938.lib" /MACHINE:X64  /machine:x64 cmTC_26938.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_26938.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\Debug\\cmTC_26938.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_26938.dir\\Debug\\cmTC_26938.tlog\\unsuccessfulbuild".
+          Touching "cmTC_26938.dir\\Debug\\cmTC_26938.tlog\\cmTC_26938.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8vwlx\\cmTC_26938.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:256 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-45tl6b"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-45tl6b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-45tl6b
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7e809.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:28.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\cmTC_7e809.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7e809.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\Debug\\".
+          Creating directory "cmTC_7e809.dir\\Debug\\cmTC_7e809.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7e809.dir\\Debug\\cmTC_7e809.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e809.dir\\Debug\\\\" /Fd"cmTC_7e809.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckIncludeFile.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e809.dir\\Debug\\\\" /Fd"cmTC_7e809.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\Debug\\cmTC_7e809.exe" /INCREMENTAL /ILK:"cmTC_7e809.dir\\Debug\\cmTC_7e809.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-45tl6b/Debug/cmTC_7e809.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-45tl6b/Debug/cmTC_7e809.lib" /MACHINE:X64  /machine:x64 cmTC_7e809.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_7e809.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\Debug\\cmTC_7e809.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7e809.dir\\Debug\\cmTC_7e809.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7e809.dir\\Debug\\cmTC_7e809.tlog\\cmTC_7e809.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45tl6b\\cmTC_7e809.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.30
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:261 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-ho755i"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-ho755i"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-ho755i
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65b2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:29.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\cmTC_65b2c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_65b2c.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\Debug\\".
+          Creating directory "cmTC_65b2c.dir\\Debug\\cmTC_65b2c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_65b2c.dir\\Debug\\cmTC_65b2c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65b2c.dir\\Debug\\\\" /Fd"cmTC_65b2c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckIncludeFile.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65b2c.dir\\Debug\\\\" /Fd"cmTC_65b2c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\Debug\\cmTC_65b2c.exe" /INCREMENTAL /ILK:"cmTC_65b2c.dir\\Debug\\cmTC_65b2c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-ho755i/Debug/cmTC_65b2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-ho755i/Debug/cmTC_65b2c.lib" /MACHINE:X64  /machine:x64 cmTC_65b2c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_65b2c.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\Debug\\cmTC_65b2c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_65b2c.dir\\Debug\\cmTC_65b2c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_65b2c.dir\\Debug\\cmTC_65b2c.tlog\\cmTC_65b2c.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ho755i\\cmTC_65b2c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:262 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include stddef.h"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-qov9yc"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-qov9yc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-qov9yc
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_11aef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:29.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\cmTC_11aef.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_11aef.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\Debug\\".
+          Creating directory "cmTC_11aef.dir\\Debug\\cmTC_11aef.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_11aef.dir\\Debug\\cmTC_11aef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11aef.dir\\Debug\\\\" /Fd"cmTC_11aef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckIncludeFile.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11aef.dir\\Debug\\\\" /Fd"cmTC_11aef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\Debug\\cmTC_11aef.exe" /INCREMENTAL /ILK:"cmTC_11aef.dir\\Debug\\cmTC_11aef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-qov9yc/Debug/cmTC_11aef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-qov9yc/Debug/cmTC_11aef.lib" /MACHINE:X64  /machine:x64 cmTC_11aef.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_11aef.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\Debug\\cmTC_11aef.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_11aef.dir\\Debug\\cmTC_11aef.tlog\\unsuccessfulbuild".
+          Touching "cmTC_11aef.dir\\Debug\\cmTC_11aef.tlog\\cmTC_11aef.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qov9yc\\cmTC_11aef.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Check size of lconv"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-soqoz8"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-soqoz8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_LCONV_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-soqoz8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2a681.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:30.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\cmTC_2a681.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2a681.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\Debug\\".
+          Creating directory "cmTC_2a681.dir\\Debug\\cmTC_2a681.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2a681.dir\\Debug\\cmTC_2a681.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a681.dir\\Debug\\\\" /Fd"cmTC_2a681.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\LCONV_SIZE.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          LCONV_SIZE.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a681.dir\\Debug\\\\" /Fd"cmTC_2a681.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\LCONV_SIZE.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\Debug\\cmTC_2a681.exe" /INCREMENTAL /ILK:"cmTC_2a681.dir\\Debug\\cmTC_2a681.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-soqoz8/Debug/cmTC_2a681.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-soqoz8/Debug/cmTC_2a681.lib" /MACHINE:X64  /machine:x64 cmTC_2a681.dir\\Debug\\LCONV_SIZE.obj
+          cmTC_2a681.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\Debug\\cmTC_2a681.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2a681.dir\\Debug\\cmTC_2a681.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2a681.dir\\Debug\\cmTC_2a681.tlog\\cmTC_2a681.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-soqoz8\\cmTC_2a681.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckStructHasMember.cmake:83 (CHECK_CXX_SOURCE_COMPILES)"
+      - "src/lib_json/CMakeLists.txt:17 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_DECIMAL_POINT"
+    directories:
+      source: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-cmzyoa"
+      binary: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-cmzyoa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_DECIMAL_POINT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-cmzyoa
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ffd2b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 18/08/2023 19:17:30.
+        
+        Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\cmTC_ffd2b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ffd2b.dir\\Debug\\".
+          Creating directory "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\Debug\\".
+          Creating directory "cmTC_ffd2b.dir\\Debug\\cmTC_ffd2b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ffd2b.dir\\Debug\\cmTC_ffd2b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ffd2b.dir\\Debug\\\\" /Fd"cmTC_ffd2b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          src.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ffd2b.dir\\Debug\\\\" /Fd"cmTC_ffd2b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\src.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\Debug\\cmTC_ffd2b.exe" /INCREMENTAL /ILK:"cmTC_ffd2b.dir\\Debug\\cmTC_ffd2b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-cmzyoa/Debug/cmTC_ffd2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lia/Desktop/BG3/bg3se-main/External/jsoncpp-master/build/CMakeFiles/CMakeScratch/TryCompile-cmzyoa/Debug/cmTC_ffd2b.lib" /MACHINE:X64  /machine:x64 cmTC_ffd2b.dir\\Debug\\src.obj
+          cmTC_ffd2b.vcxproj -> C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\Debug\\cmTC_ffd2b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ffd2b.dir\\Debug\\cmTC_ffd2b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ffd2b.dir\\Debug\\cmTC_ffd2b.tlog\\cmTC_ffd2b.lastbuildstate".
+        Done Building Project "C:\\Users\\Lia\\Desktop\\BG3\\bg3se-main\\External\\jsoncpp-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmzyoa\\cmTC_ffd2b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.30
+        
+      exitCode: 0
+...

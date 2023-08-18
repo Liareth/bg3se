@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\config.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\forwards.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\json_features.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\value.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\reader.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\version.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\writer.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\include\json\assertions.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\lib_json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\lib_json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\lib_json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C02C4E4-FE91-3766-BF04-101534E5F771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public API">
+      <UniqueIdentifier>{A14D95DE-782B-3920-880B-D9FD51434F28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC18E10D-CF80-319F-99E7-0D81E9A15E5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

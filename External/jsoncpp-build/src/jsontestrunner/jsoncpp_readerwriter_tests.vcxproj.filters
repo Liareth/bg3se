@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\build\CMakeFiles\c803c7bf5bec7a7d93b3a5e2903149f9\jsoncpp_readerwriter_tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\src\jsontestrunner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Lia\Desktop\BG3\bg3se-main\External\jsoncpp-master\build\src\jsontestrunner\CMakeFiles\jsoncpp_readerwriter_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FF947668-15BB-30B9-AA39-17A64CEC2C20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
