@@ -175,15 +175,19 @@ namespace bg3se
 	{
 		auto & wrapper = GetWrapper(node);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->IsValidPreHook(node, tuple, adapter);
 		}
+#endif
 
 		bool succeeded = wrapper.WrappedIsValid(node, tuple, adapter);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->IsValidPostHook(node, tuple, adapter, succeeded);
 		}
+#endif
 
 		return succeeded;
 	}
@@ -192,39 +196,49 @@ namespace bg3se
 	{
 		auto & wrapper = GetWrapper(node);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->PushDownPreHook(node, tuple, adapter, which, false);
 		}
+#endif
 
 		wrapper.WrappedPushDownTuple(node, tuple, adapter, which);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->PushDownPostHook(node, tuple, adapter, which, false);
 		}
+#endif
 	}
 
 	void NodeVMTWrappers::WrappedPushDownTupleDelete(Node * node, VirtTupleLL * tuple, AdapterRef * adapter, EntryPoint which)
 	{
 		auto & wrapper = GetWrapper(node);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->PushDownPreHook(node, tuple, adapter, which, true);
 		}
+#endif
 
 		wrapper.WrappedPushDownTupleDelete(node, tuple, adapter, which);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->PushDownPostHook(node, tuple, adapter, which, true);
 		}
+#endif
 	}
 
 	void NodeVMTWrappers::WrappedInsertTuple(Node * node, TuplePtrLL * tuple)
 	{
 		auto & wrapper = GetWrapper(node);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->InsertPreHook(node, tuple, false);
 		}
+#endif
 
 		if (OsirisCallbacksAttachment) {
 			OsirisCallbacksAttachment->InsertPreHook(node, tuple, false);
@@ -232,9 +246,11 @@ namespace bg3se
 
 		wrapper.WrappedInsertTuple(node, tuple);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->InsertPostHook(node, tuple, false);
 		}
+#endif
 
 		if (OsirisCallbacksAttachment) {
 			OsirisCallbacksAttachment->InsertPostHook(node, tuple, false);
@@ -245,24 +261,30 @@ namespace bg3se
 	{
 		auto & wrapper = GetWrapper(node);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->InsertPreHook(node, tuple, true);
 		}
+#endif
 
 		wrapper.WrappedDeleteTuple(node, tuple);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->InsertPostHook(node, tuple, true);
 		}
+#endif
 	}
 
 	bool NodeVMTWrappers::WrappedCallQuery(Node * node, OsiArgumentDesc * args)
 	{
 		auto & wrapper = GetWrapper(node);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->CallQueryPreHook(node, args);
 		}
+#endif
 
 		if (OsirisCallbacksAttachment) {
 			OsirisCallbacksAttachment->CallQueryPreHook(node, args);
@@ -270,9 +292,11 @@ namespace bg3se
 
 		bool succeeded = wrapper.WrappedCallQuery(node, args);
 
+#if !defined(OSI_NO_DEBUGGER)
 		if (DebuggerAttachment) {
 			DebuggerAttachment->CallQueryPostHook(node, args, succeeded);
 		}
+#endif
 
 		if (OsirisCallbacksAttachment) {
 			OsirisCallbacksAttachment->CallQueryPostHook(node, args, succeeded);

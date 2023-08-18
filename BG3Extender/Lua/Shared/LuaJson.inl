@@ -97,7 +97,7 @@ namespace bg3se::lua::utils
 
 		index = lua_absindex(L, index);
 		if (!lua_getmetatable(L, index)) {
-			return Json::Value::null;
+			return Json::Value::nullSingleton();
 		}
 
 		push(L, "__pairs");
@@ -106,7 +106,7 @@ namespace bg3se::lua::utils
 		// No __pairs function, can't iterate this object
 		if (lua_type(L, -1) == LUA_TNIL) {
 			lua_pop(L, 1);
-			return Json::Value::null;
+			return Json::Value::nullSingleton();
 		}
 
 		Json::Value arr(Json::objectValue);

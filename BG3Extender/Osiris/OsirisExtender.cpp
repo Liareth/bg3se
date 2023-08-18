@@ -58,6 +58,7 @@ void OsirisExtender::Shutdown()
 {
 	if (!initialized_) return;
 
+#if !defined(OSI_NO_DEBUGGER)
 	if (debugger_) {
 		debugger_.reset();
 	}
@@ -69,6 +70,7 @@ void OsirisExtender::Shutdown()
 		debugInterface_.reset();
 		debuggerThread_.reset();
 	}
+#endif
 
 	wrappers_.Shutdown();
 	initialized_ = false;
