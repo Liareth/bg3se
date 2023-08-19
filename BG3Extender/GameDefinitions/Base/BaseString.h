@@ -1,6 +1,8 @@
 #pragma once
 
 #include <cstdint>
+#include <iostream>
+#include <optional>
 #include <string>
 
 std::string ToStdUTF8(std::wstring_view s);

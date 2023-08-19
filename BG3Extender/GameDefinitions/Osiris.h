@@ -1,12 +1,13 @@
 #pragma once
 
-#include <cstdint>
 #include <array>
-#include <vector>
-#include <set>
-#include <map>
-#include <string>
 #include <cassert>
+#include <cstdint>
+#include <list>
+#include <map>
+#include <set>
+#include <string>
+#include <vector>
 #include <glm/vec3.hpp>
 #include <GameDefinitions/Base/Base.h>
 
